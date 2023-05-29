@@ -53,14 +53,59 @@ button{
 }
 
 
-@media (width  <= 600px){
+@media (width  <= 300px){
+
+    body{
+        height: 100vh;
+    }
     .bootcamps { 
 
         /* grid-auto-rows: minmax(0,1fr); */
         grid-auto-flow: row;
         gap: 20px;
-    
-        
+    }
+    header{
+        background-color: #1D4547;
+        padding: none;
+        height: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
+    .signup-btn{
+display: none;
+    }
+    ul { 
+        display: none;
+
+    }
+    
+        .logos { 
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .terms{
+            padding-top: 2%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+} 
+
+@media (width  <= 600px){
+
+    .bootcamps { 
+
+        /* grid-auto-rows: minmax(0,1fr); */
+        grid-auto-flow: row;
+        gap: 20px;
+    }
+
 } 

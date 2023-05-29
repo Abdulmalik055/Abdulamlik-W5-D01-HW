@@ -74,14 +74,11 @@ button{
     }
     
     .signup-btn{
-display: none;
-    }
-    ul { 
         display: none;
-
     }
+
     
-        .logos { 
+    .logos { 
             padding-bottom: 10px;
             display: flex;
             justify-content: center;
@@ -89,7 +86,7 @@ display: none;
             flex-direction: column;
             gap: 10px;
         }
-        .terms{
+     .terms{
             padding-top: 2%;
             display: flex;
             flex-direction: column;

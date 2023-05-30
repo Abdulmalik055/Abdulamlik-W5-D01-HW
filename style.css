@@ -9,7 +9,7 @@ body {
     font-family: 'Lobster', cursive;
     font-family: 'Open Sans', sans-serif;
     background-color: #1D4547;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url(/image/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url(./image/background.jpg);
     background-size: cover;
     background-position: center;
     
@@ -181,29 +181,28 @@ footer {
     .logos { 
         padding-top: 9%;
         padding-bottom: 9%;
-
         display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
         }
 
-        .logo {
-            padding-bottom: 3%;
+    .logo {
+        padding-bottom: 3%;
         }
-     .terms{
-            padding-top: 5%;
-            padding-bottom: 5%;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+    .terms{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         }
 
-        .copyright{
-            display: none;
-            padding-bottom: 5%;
+    .copyright{
+        display: none;
+        padding-bottom: 5%;
 
         }
 } 
